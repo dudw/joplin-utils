@@ -1,0 +1,1 @@
+const e={key:"v-0f2f86fa",path:"/zh/dev/doc.html",title:"文档",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"初始化本地环境",slug:"初始化本地环境",children:[]},{level:2,title:"添加文档翻译",slug:"添加文档翻译",children:[]}],filePathRelative:"zh/dev/doc.md",git:{updatedTime:1630929897e3,contributors:[{name:"rxliuli",email:"rxliuli@gmail.com",commits:1}]}};export{e as data};

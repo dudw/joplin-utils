@@ -1,0 +1,1 @@
+const e={key:"v-53faffe2",path:"/zh/dev/",title:"参与项目",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"简介",slug:"简介",children:[]},{level:2,title:"如何贡献",slug:"如何贡献",children:[]}],filePathRelative:"zh/dev/README.md",git:{updatedTime:1630929897e3,contributors:[{name:"rxliuli",email:"rxliuli@gmail.com",commits:1}]}};export{e as data};

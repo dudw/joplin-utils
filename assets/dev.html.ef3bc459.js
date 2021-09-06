@@ -1,0 +1,1 @@
+const e={key:"v-07d5ffc6",path:"/zh/dev/dev.html",title:"开发",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"主要技术栈",slug:"主要技术栈",children:[]}],filePathRelative:"zh/dev/dev.md",git:{updatedTime:1630929897e3,contributors:[{name:"rxliuli",email:"rxliuli@gmail.com",commits:1}]}};export{e as data};

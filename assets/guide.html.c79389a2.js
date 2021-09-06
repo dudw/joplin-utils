@@ -1,0 +1,1 @@
+const e={key:"v-03ab562b",path:"/zh/joplin-blog/guide.html",title:"安装指南",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"安装",slug:"安装",children:[]},{level:2,title:"安装前提",slug:"安装前提",children:[]}],filePathRelative:"zh/joplin-blog/guide.md",git:{updatedTime:1630929897e3,contributors:[{name:"rxliuli",email:"rxliuli@gmail.com",commits:2}]}};export{e as data};
