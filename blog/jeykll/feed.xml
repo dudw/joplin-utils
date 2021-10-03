@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="/blog/jeykll/feed.xml" rel="self" type="application/atom+xml" /><link href="/blog/jeykll/" rel="alternate" type="text/html" /><updated>2021-10-03T15:12:40+08:00</updated><id>/blog/jeykll/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">4. Tips</title><link href="/blog/jeykll/p/1fc5d647e380442ba32e4a1c5679f603" rel="alternate" type="text/html" title="4. Tips" /><published>2021-10-02T11:14:13+08:00</published><updated>2021-10-02T11:14:13+08:00</updated><id>/blog/jeykll/p/1fc5d647e380442ba32e4a1c5679f603</id><content type="html" xml:base="/blog/jeykll/p/1fc5d647e380442ba32e4a1c5679f603">&lt;h1 id=&quot;tips&quot;&gt;Tips&lt;/h1&gt;
+
+&lt;p&gt;The first few notes should have given you an overview of the main functionalities of Joplin, but there’s more it can do. See below for some of these features and how to get more help using the app:&lt;/p&gt;
+
+&lt;h2 id=&quot;web-clipper&quot;&gt;Web clipper&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/resource/fd708e7486d54268b6202fde4c462a50.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Web Clipper is a browser extension that allows you to save web pages and screenshots from your browser. To start using it, open the Joplin desktop application, go to the Web Clipper Options and follow the instructions.&lt;/p&gt;
+
+&lt;p&gt;More info on the official website: &lt;a href=&quot;https://joplinapp.org/clipper/&quot;&gt;https://joplinapp.org/clipper/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;plugins&quot;&gt;Plugins&lt;/h2&gt;
+
+&lt;p&gt;Joplin supports many plugins that allows you to add new features to the app, such as tabs, a table of content for your notes, a way to manage favourite notes, and many other ones. To add a plugin, go to the “Plugins” section in the config screen. From there you can search and install plugins, as well as search or update plugins.&lt;/p&gt;
+
+&lt;h2 id=&quot;attachments&quot;&gt;Attachments&lt;/h2&gt;
+
+&lt;p&gt;Any kind of file can be attached to a note. In Markdown, links to these files are represented as an ID. In the note viewer, these files, if they are images, will be displayed or, if they are other files (PDF, text files, etc.) they will be displayed as links. Clicking on this link will open the file in the default application.&lt;/p&gt;
+
+&lt;p&gt;Images can be attached either by clicking on “Attach file” or by pasting (with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ctrl+V&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Cmd+V&lt;/code&gt;) an image directly in the editor, or by drag and dropping an image.&lt;/p&gt;
+
+&lt;p&gt;More info about attachments: &lt;a href=&quot;https://joplinapp.org#attachments--resources&quot;&gt;https://joplinapp.org#attachments--resources&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;search&quot;&gt;Search&lt;/h2&gt;
+
+&lt;p&gt;Joplin supports advanced search queries, which are fully documented on the official website: &lt;a href=&quot;https://joplinapp.org#searching&quot;&gt;https://joplinapp.org#searching&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;alarms&quot;&gt;Alarms&lt;/h2&gt;
+
+&lt;p&gt;An alarm can be associated with any to-do. It will be triggered at the given time by displaying a notification. To use this feature, see the documentation: &lt;a href=&quot;https://joplinapp.org#notifications&quot;&gt;https://joplinapp.org#notifications&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;markdown-advanced-tips&quot;&gt;Markdown advanced tips&lt;/h2&gt;
+
+&lt;p&gt;Joplin uses and renders &lt;a href=&quot;https://joplinapp.org/markdown/&quot;&gt;Github-flavoured Markdown&lt;/a&gt; with a few variations and additions.&lt;/p&gt;
+
+&lt;p&gt;For example, tables are supported:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Tables&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Are&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Cool&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;col 3 is&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;right-aligned&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;$1600&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;col 2 is&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;centered&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;$12&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;zebra stripes&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;are neat&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;$1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;You can also create lists of checkboxes. These checkboxes can be ticked directly in the viewer, or by adding an “x” inside:&lt;/p&gt;
+
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Milk&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Eggs&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Beer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Math expressions can be added using the &lt;a href=&quot;https://khan.github.io/KaTeX/&quot;&gt;KaTeX notation&lt;/a&gt;:&lt;/p&gt;
+
+\[f(x) = \int\_{-\infty}^\infty
+\hat f(\xi),e^{2 \pi i \xi x}
+,d\xi\]
+
+&lt;p&gt;Various other tricks are possible, such as using HTML, or customising the CSS. See the Markdown documentation for more info - &lt;a href=&quot;https://joplinapp.org#markdown&quot;&gt;https://joplinapp.org#markdown&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;community-and-further-help&quot;&gt;Community and further help&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;For general discussion about Joplin, user support, software development questions, and to discuss new features, go to the &lt;a href=&quot;https://discourse.joplinapp.org/&quot;&gt;Joplin Forum&lt;/a&gt;. It is possible to login with your GitHub account.&lt;/li&gt;
+  &lt;li&gt;The latest news are posted &lt;a href=&quot;https://www.patreon.com/joplin&quot;&gt;on the Patreon page&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;For bug reports and feature requests, go to the &lt;a href=&quot;https://github.com/laurent22/joplin/issues&quot;&gt;GitHub Issue Tracker&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;donations&quot;&gt;Donations&lt;/h2&gt;
+
+&lt;p&gt;Donations to Joplin support the development of the project. Developing quality applications mostly takes time, but there are also some expenses, such as digital certificates to sign the applications, app store fees, hosting, etc. Most of all, your donation will make it possible to keep up the current development standard.&lt;/p&gt;
+
+&lt;p&gt;Please see the &lt;a href=&quot;https://joplinapp.org/donate/&quot;&gt;donation page&lt;/a&gt; for information on how to support the development of Joplin.&lt;/p&gt;</content><author><name></name></author><summary type="html">Tips</summary></entry><entry><title type="html">3. Synchronising your notes</title><link href="/blog/jeykll/p/43ede65262344f4e9fee88b2173a66f6" rel="alternate" type="text/html" title="3. Synchronising your notes" /><published>2021-10-02T11:14:13+08:00</published><updated>2021-10-02T11:14:13+08:00</updated><id>/blog/jeykll/p/43ede65262344f4e9fee88b2173a66f6</id><content type="html" xml:base="/blog/jeykll/p/43ede65262344f4e9fee88b2173a66f6">&lt;h1 id=&quot;synchronising-your-notes&quot;&gt;Synchronising your notes&lt;/h1&gt;
+
+&lt;p&gt;Joplin allows you to synchronise your data using various file hosting services. The supported cloud services are the following:&lt;/p&gt;
+
+&lt;h2 id=&quot;setting-up-joplin-cloud-synchronisation&quot;&gt;Setting up Joplin Cloud synchronisation&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://joplinapp.org/plans/&quot;&gt;Joplin Cloud&lt;/a&gt; is a web service specifically designed for Joplin. Besides synchronising your data, it also allows you to publish a note to the internet, or share a notebook with your friends, family or colleagues. Joplin Cloud, compared to other services, also features a number of performance improvements allowing for faster synchronisation.&lt;/p&gt;
+
+&lt;p&gt;To use it, go to the config screen, then to the Synchronisation section. In the list of sync target, select “Joplin Cloud”. Enter your email and password, and you’re ready to use Joplin Cloud.&lt;/p&gt;
+
+&lt;h2 id=&quot;setting-up-dropbox-synchronisation&quot;&gt;Setting up Dropbox synchronisation&lt;/h2&gt;
+
+&lt;p&gt;Select “Dropbox” as the synchronisation target in the config screen. Then, to initiate the synchronisation process, click on the “Synchronise” button in the sidebar and follow the instructions.&lt;/p&gt;
+
+&lt;h2 id=&quot;setting-up-nextcloud-synchronisation&quot;&gt;Setting up Nextcloud synchronisation&lt;/h2&gt;
+
+&lt;p&gt;Nextcloud is a self-hosted, private cloud solution. To set it up, go to the config screen and select Nextcloud as the synchronisation target. Then input the WebDAV URL (to get it, go to your Nextcloud page, click on Settings in the bottom left corner of the page and copy the URL). Note that it has to be the &lt;strong&gt;full URL&lt;/strong&gt;, so for example if you want the notes to be under &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/Joplin&lt;/code&gt;, the URL would be something like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://example.com/remote.php/webdav/Joplin&lt;/code&gt; (note that “/Joplin” part). And &lt;strong&gt;make sure to create the “/Joplin” directory in Nextcloud&lt;/strong&gt;. Finally set the username and password. If it does not work, please &lt;a href=&quot;https://github.com/laurent22/joplin/issues/61#issuecomment-373282608&quot;&gt;see this explanation&lt;/a&gt; for more details.&lt;/p&gt;
+
+&lt;h2 id=&quot;setting-up-onedrive-or-webdav-synchronisation&quot;&gt;Setting up OneDrive or WebDAV synchronisation&lt;/h2&gt;
+
+&lt;p&gt;OneDrive and WebDAV are also supported as synchronisation services. Please see &lt;a href=&quot;https://github.com/laurent22/joplin#synchronisation&quot;&gt;the synchronisation documentation&lt;/a&gt; for more information.&lt;/p&gt;
+
+&lt;h2 id=&quot;using-end-to-end-encryption&quot;&gt;Using End-To-End Encryption&lt;/h2&gt;
+
+&lt;p&gt;Joplin supports end-to-end encryption (E2EE) on all the applications. E2EE is a system where only the owner of the data can read it. It prevents potential eavesdroppers - including telecom providers, internet providers, and even the developers of Joplin from being able to access the data. Please see the &lt;a href=&quot;https://joplinapp.org/e2ee/&quot;&gt;End-To-End Encryption Tutorial&lt;/a&gt; for more information about this feature and how to enable it.&lt;/p&gt;</content><author><name></name></author><summary type="html">Synchronising your notes</summary></entry><entry><title type="html">1. Welcome to Joplin!</title><link href="/blog/jeykll/p/8f59ffccf1f24e208d90b17b8c0157a2" rel="alternate" type="text/html" title="1. Welcome to Joplin!" /><published>2021-10-02T11:14:13+08:00</published><updated>2021-10-02T11:14:13+08:00</updated><id>/blog/jeykll/p/8f59ffccf1f24e208d90b17b8c0157a2</id><content type="html" xml:base="/blog/jeykll/p/8f59ffccf1f24e208d90b17b8c0157a2">&lt;h1 id=&quot;welcome-to-joplin&quot;&gt;Welcome to Joplin!&lt;/h1&gt;
+
+&lt;p&gt;Joplin is a free, open source note taking and to-do application, which helps you write and organise your notes, and synchronise them between your devices. The notes are searchable, can be copied, tagged and modified either from the application directly or from your own text editor. The notes are in &lt;a href=&quot;https://joplinapp.org/help/#markdown&quot;&gt;Markdown format&lt;/a&gt;. Joplin is available as a &lt;strong&gt;desktop&lt;/strong&gt;, &lt;strong&gt;mobile&lt;/strong&gt; and &lt;strong&gt;terminal&lt;/strong&gt; application.&lt;/p&gt;
+
+&lt;p&gt;The notes in this notebook give an overview of what Joplin can do and how to use it. In general, the three applications share roughly the same functionalities; any differences will be clearly indicated.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/resource/f7d9baf0ed4d429fabc8662fdcc27b6a.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;joplin-is-divided-into-three-parts&quot;&gt;Joplin is divided into three parts&lt;/h2&gt;
+
+&lt;p&gt;Joplin has three main columns:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Sidebar&lt;/strong&gt; contains the list of your notebooks and tags, as well as the synchronisation status.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Note List&lt;/strong&gt; contains the current list of notes - either the notes in the currently selected notebook, the notes in the currently selected tag, or search results.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Note Editor&lt;/strong&gt; is the place where you write your notes. There is a &lt;strong&gt;Rich Text editor&lt;/strong&gt; and a &lt;strong&gt;Markdown editor&lt;/strong&gt; - click on the &lt;strong&gt;Toggle editor&lt;/strong&gt; button in the top right hand corner to switch between both! You may also use an &lt;a href=&quot;https://joplinapp.org/help/#external-text-editor&quot;&gt;external editor&lt;/a&gt; to edit notes. For example you can use Typora as an external editor and it will display the note as well as any embedded images.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;writing-notes-in-markdown&quot;&gt;Writing notes in Markdown&lt;/h2&gt;
+
+&lt;p&gt;Markdown is a lightweight markup language with plain text formatting syntax. Joplin supports a &lt;a href=&quot;https://joplinapp.org/markdown/&quot;&gt;Github-flavoured Markdown syntax&lt;/a&gt; with a few variations and additions.&lt;/p&gt;
+
+&lt;p&gt;In general, while Markdown is a markup language, it is meant to be human readable, even without being rendered. This is a simple example (you can see how it looks in the viewer panel):&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;heading&quot;&gt;Heading&lt;/h1&gt;
+
+&lt;h2 id=&quot;sub-heading&quot;&gt;Sub-heading&lt;/h2&gt;
+
+&lt;p&gt;Paragraphs are separated by a blank line. Text attributes &lt;em&gt;italic&lt;/em&gt;, &lt;strong&gt;bold&lt;/strong&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;monospace&lt;/code&gt; are supported. You can create bullet lists:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;apples&lt;/li&gt;
+  &lt;li&gt;oranges&lt;/li&gt;
+  &lt;li&gt;pears&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Or numbered lists:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;wash&lt;/li&gt;
+  &lt;li&gt;rinse&lt;/li&gt;
+  &lt;li&gt;repeat&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This is a &lt;a href=&quot;https://joplinapp.org&quot;&gt;link&lt;/a&gt; and, finally, below is a horizontal rule:&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;A lot more is possible including adding code samples, math formulae or checkbox lists - see the &lt;a href=&quot;https://joplinapp.org/help/#markdown&quot;&gt;Markdown documentation&lt;/a&gt; for more information.&lt;/p&gt;
+
+&lt;h2 id=&quot;organising-your-notes&quot;&gt;Organising your notes&lt;/h2&gt;
+
+&lt;h3 id=&quot;with-notebooks&quot;&gt;With notebooks&lt;/h3&gt;
+
+&lt;p&gt;Joplin notes are organised into a tree of notebooks and sub-notebooks.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;On &lt;strong&gt;desktop&lt;/strong&gt;, you can create a notebook by clicking on New Notebook, then you can drag and drop them into other notebooks to organise them as you wish.&lt;/li&gt;
+  &lt;li&gt;On &lt;strong&gt;mobile&lt;/strong&gt;, press the “+” icon and select “New notebook”.&lt;/li&gt;
+  &lt;li&gt;On &lt;strong&gt;terminal&lt;/strong&gt;, press &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:mn&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/resource/31954cc3a3a445358da2060237b81306.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;with-tags&quot;&gt;With tags&lt;/h3&gt;
+
+&lt;p&gt;The second way to organise your notes is using tags:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;On &lt;strong&gt;desktop&lt;/strong&gt;, right-click on any note in the Note List, and select “Edit tags”. You can then add the tags, separating them by commas.&lt;/li&gt;
+  &lt;li&gt;On &lt;strong&gt;mobile&lt;/strong&gt;, open the note and press the “⋮” button and select “Tags”.&lt;/li&gt;
+  &lt;li&gt;On &lt;strong&gt;terminal&lt;/strong&gt;, type &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:help tag&lt;/code&gt; for the available commands.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Welcome to Joplin!</summary></entry><entry><title type="html">5. Privacy</title><link href="/blog/jeykll/p/ce964c098d59472e975dedd77b58643c" rel="alternate" type="text/html" title="5. Privacy" /><published>2021-10-02T11:14:13+08:00</published><updated>2021-10-02T11:14:13+08:00</updated><id>/blog/jeykll/p/ce964c098d59472e975dedd77b58643c</id><content type="html" xml:base="/blog/jeykll/p/ce964c098d59472e975dedd77b58643c">&lt;h1 id=&quot;privacy&quot;&gt;Privacy&lt;/h1&gt;
+
+&lt;p&gt;Joplin values your privacy by giving you complete control over your information and digital footprint.&lt;/p&gt;
+
+&lt;p&gt;Joplin applications do not send any data to any service without your authorisation. Any data that Joplin saves, such as notes or images, are saved to your own device and you are free to delete this data at any time.&lt;/p&gt;
+
+&lt;p&gt;Joplin has many modern features, some of which use third-party services. You can disable any or all of these features in the application settings. These features are:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Feature&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+      &lt;th&gt;Default&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Auto-update&lt;/td&gt;
+      &lt;td&gt;Joplin periodically connects to GitHub to check for new releases.&lt;/td&gt;
+      &lt;td&gt;Enabled&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Geo-location&lt;/td&gt;
+      &lt;td&gt;Joplin saves geo-location information in note properties when you create a note.&lt;/td&gt;
+      &lt;td&gt;Enabled&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Synchronisation&lt;/td&gt;
+      &lt;td&gt;Joplin supports synchronisation of your notes across multiple devices. If you choose to synchronise with a third-party, such as OneDrive, the notes will be sent to your OneDrive account, in which case the third-party privacy policy applies.&lt;/td&gt;
+      &lt;td&gt;Disabled&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Joplin is developed as an open-source application and the source code is freely available online to inspect.&lt;/p&gt;
+
+&lt;p&gt;For any question about Joplin privacy, please leave a message on the &lt;a href=&quot;https://discourse.joplinapp.org/&quot;&gt;Joplin Forum&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">Privacy</summary></entry><entry><title type="html">2. Importing and exporting notes</title><link href="/blog/jeykll/p/d03f08c209164125a30912c3736fa2d3" rel="alternate" type="text/html" title="2. Importing and exporting notes" /><published>2021-10-02T11:14:13+08:00</published><updated>2021-10-02T11:14:13+08:00</updated><id>/blog/jeykll/p/d03f08c209164125a30912c3736fa2d3</id><content type="html" xml:base="/blog/jeykll/p/d03f08c209164125a30912c3736fa2d3">&lt;h1 id=&quot;importing-and-exporting-notes&quot;&gt;Importing and exporting notes&lt;/h1&gt;
+
+&lt;h2 id=&quot;importing-from-evernote&quot;&gt;Importing from Evernote&lt;/h2&gt;
+
+&lt;p&gt;Joplin can import complete Evernote notebooks, as well as notes, tags, images, attached files and note metadata (such as author, geo-location, etc.) via ENEX files.&lt;/p&gt;
+
+&lt;p&gt;To import Evernote data, first export your Evernote notebooks to ENEX files as described &lt;a href=&quot;https://help.evernote.com/hc/en-us/articles/209005557-How-to-back-up-export-and-restore-import-notes-and-notebooks&quot;&gt;here&lt;/a&gt;. Then, on &lt;strong&gt;desktop&lt;/strong&gt;, do the following: Open File &amp;gt; Import &amp;gt; ENEX and select your file. The notes will be imported into a new separate notebook. If needed they can then be moved to a different notebook, or the notebook can be renamed, etc. Read &lt;a href=&quot;https://joplinapp.org/help/#importing-from-evernote&quot;&gt;more about Evernote import&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;importing-from-other-apps&quot;&gt;Importing from other apps&lt;/h1&gt;
+
+&lt;p&gt;Joplin can also import notes from &lt;a href=&quot;https://github.com/laurent22/joplin#importing-from-other-applications&quot;&gt;many other apps&lt;/a&gt; as well as &lt;a href=&quot;https://github.com/laurent22/joplin#importing-from-markdown-files&quot;&gt;from Markdown or text files&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;exporting-notes&quot;&gt;Exporting notes&lt;/h1&gt;
+
+&lt;p&gt;Joplin can export to the JEX format (Joplin Export file), which is an archive that can contain multiple notes, notebooks, etc. This is a format mostly designed for backup purposes. You may also export to other formats such as plain Markdown files, to JSON or to PDF. Find out &lt;a href=&quot;https://github.com/laurent22/joplin#exporting&quot;&gt;more about exporting notes&lt;/a&gt; on the official website.&lt;/p&gt;</content><author><name></name></author><summary type="html">Importing and exporting notes</summary></entry></feed>
