@@ -1,1 +1,1 @@
-var a="/images/copy-link.gif";export{a as _};
+var i="/images/copy-link.gif";export{i as _};
