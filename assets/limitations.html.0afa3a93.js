@@ -1,0 +1,1 @@
+const i={key:"v-1dccc42a",path:"/zh/joplin-vscode-plugin/guide/limitations.html",title:"\u9650\u5236",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1650118438e3,contributors:[{name:"rxliuli",email:"rxliuli@gmail.com",commits:2}]},filePathRelative:"zh/joplin-vscode-plugin/guide/limitations.md"};export{i as data};
