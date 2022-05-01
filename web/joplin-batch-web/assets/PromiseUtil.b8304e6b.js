@@ -1,0 +1,1 @@
+import{c as o}from"./index.esm.af52872f.js";class m{static warpOnEvent(n){const s={},t=o(0).then(()=>new Promise((e,r)=>{try{e(n(s))}catch(c){r(c)}}));return Reflect.set(t,"on",(e,r)=>(s[e]=r,t)),t}}export{m as P};
