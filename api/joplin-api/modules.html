@@ -71,6 +71,7 @@
 							<h3>Classes</h3>
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-class"><a href="classes/Config.html" class="tsd-kind-icon">Config</a></li>
+								<li class="tsd-kind-class"><a href="classes/EventApi.html" class="tsd-kind-icon">Event<wbr>Api</a></li>
 								<li class="tsd-kind-class"><a href="classes/FolderApi.html" class="tsd-kind-icon">Folder<wbr>Api</a></li>
 								<li class="tsd-kind-class"><a href="classes/FolderExtApi.html" class="tsd-kind-icon">Folder<wbr>Ext<wbr>Api</a></li>
 								<li class="tsd-kind-class"><a href="classes/JoplinApi.html" class="tsd-kind-icon">Joplin<wbr>Api</a></li>
@@ -83,6 +84,19 @@
 								<li class="tsd-kind-class"><a href="classes/ResourceApi.html" class="tsd-kind-icon">Resource<wbr>Api</a></li>
 								<li class="tsd-kind-class"><a href="classes/SearchApi.html" class="tsd-kind-icon">Search<wbr>Api</a></li>
 								<li class="tsd-kind-class"><a href="classes/TagApi.html" class="tsd-kind-icon">Tag<wbr>Api</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Interfaces</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-interface"><a href="interfaces/EventProperties.html" class="tsd-kind-icon">Event<wbr>Properties</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Type aliases</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-type-alias"><a href="modules.html#EventGetRes" class="tsd-kind-icon">Event<wbr>Get<wbr>Res</a></li>
+								<li class="tsd-kind-type-alias"><a href="modules.html#EventListRes" class="tsd-kind-icon">Event<wbr>List<wbr>Res</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section ">
@@ -108,6 +122,29 @@
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Type aliases</h2>
+				<section class="tsd-panel tsd-member tsd-kind-type-alias">
+					<a name="EventGetRes" class="tsd-anchor"></a>
+					<h3>Event<wbr>Get<wbr>Res</h3>
+					<div class="tsd-signature tsd-kind-icon">Event<wbr>Get<wbr>Res<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Pick</span><span class="tsd-signature-symbol">&lt;</span><a href="interfaces/EventProperties.html" class="tsd-signature-type" data-tsd-kind="Interface">EventProperties</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">&quot;id&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;item_type&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;item_id&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;type&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;created_time&quot;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> &amp; </span><span class="tsd-signature-type">CommonType</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/rxliuli/joplin-utils/blob/7ab40db/libs/joplin-api/src/api/EventApi.ts#L15">api/EventApi.ts:15</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-type-alias">
+					<a name="EventListRes" class="tsd-anchor"></a>
+					<h3>Event<wbr>List<wbr>Res</h3>
+					<div class="tsd-signature tsd-kind-icon">Event<wbr>List<wbr>Res<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Pick</span><span class="tsd-signature-symbol">&lt;</span><a href="interfaces/EventProperties.html" class="tsd-signature-type" data-tsd-kind="Interface">EventProperties</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">&quot;id&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;item_type&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;item_id&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;type&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;created_time&quot;</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/rxliuli/joplin-utils/blob/7ab40db/libs/joplin-api/src/api/EventApi.ts#L17">api/EventApi.ts:17</a></li>
+						</ul>
+					</aside>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Variables</h2>
 				<section class="tsd-panel tsd-member tsd-kind-variable">
 					<a name="actionApi" class="tsd-anchor"></a>
@@ -129,7 +166,7 @@
 					<div class="tsd-signature tsd-kind-icon">config<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Pick</span><span class="tsd-signature-symbol">&lt;</span><a href="classes/JoplinApiGenerator.html" class="tsd-signature-type" data-tsd-kind="Class">JoplinApiGenerator</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">&quot;token&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;baseUrl&quot;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = ...</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/rxliuli/joplin-utils/blob/ea8b2e8/libs/joplin-api/src/api/JoplinApiGenerator.ts#L72">api/JoplinApiGenerator.ts:72</a></li>
+							<li>Defined in <a href="https://github.com/rxliuli/joplin-utils/blob/7ab40db/libs/joplin-api/src/api/JoplinApiGenerator.ts#L72">api/JoplinApiGenerator.ts:72</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -141,7 +178,7 @@
 				<section class="tsd-panel tsd-member tsd-kind-variable">
 					<a name="eventApi" class="tsd-anchor"></a>
 					<h3>event<wbr>Api</h3>
-					<div class="tsd-signature tsd-kind-icon">event<wbr>Api<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">EventApi</span></div>
+					<div class="tsd-signature tsd-kind-icon">event<wbr>Api<span class="tsd-signature-symbol">:</span> <a href="classes/EventApi.html" class="tsd-signature-type" data-tsd-kind="Class">EventApi</a></div>
 					<aside class="tsd-sources">
 					</aside>
 				</section>
@@ -234,6 +271,9 @@
 						<a href="classes/Config.html" class="tsd-kind-icon">Config</a>
 					</li>
 					<li class=" tsd-kind-class">
+						<a href="classes/EventApi.html" class="tsd-kind-icon">Event<wbr>Api</a>
+					</li>
+					<li class=" tsd-kind-class">
 						<a href="classes/FolderApi.html" class="tsd-kind-icon">Folder<wbr>Api</a>
 					</li>
 					<li class=" tsd-kind-class">
@@ -268,6 +308,15 @@
 					</li>
 					<li class=" tsd-kind-class">
 						<a href="classes/TagApi.html" class="tsd-kind-icon">Tag<wbr>Api</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/EventProperties.html" class="tsd-kind-icon">Event<wbr>Properties</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="modules.html#EventGetRes" class="tsd-kind-icon">Event<wbr>Get<wbr>Res</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="modules.html#EventListRes" class="tsd-kind-icon">Event<wbr>List<wbr>Res</a>
 					</li>
 					<li class=" tsd-kind-variable">
 						<a href="modules.html#actionApi" class="tsd-kind-icon">action<wbr>Api</a>
@@ -329,6 +378,9 @@
 			<ul class="tsd-legend">
 				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
 				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
 			</ul>
 		</div>
 	</div>
