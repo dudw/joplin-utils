@@ -1,5 +1,14 @@
 # changelog
 
+## 0.10.0
+
+- feat: add math rendering to notes, ref: <https://github.com/rxliuli/joplin-utils/pull/105>
+
+## 0.9.0
+
+- feat: support search joplin notes on search bar
+- feat: optimize ui
+
 ## 0.8.2
 
 - fix: Resolved a CSS conflict between the search box and plugin CSS when using Bing search
